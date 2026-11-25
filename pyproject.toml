@@ -7,7 +7,9 @@ authors = [
     { name = "Kan3nov", email = "shockrobot@gmail.com" }
 ]
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.4",
+]
 
 [project.scripts]
 agent-smith = "agent_smith:main"
